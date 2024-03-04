@@ -1,5 +1,6 @@
 import './App.css';
 import ClassComponent from "./ClassComponent";
+import ArrowComponent from "./ArrowComponent";
 
 // 기본 함수형
 // function App() {
@@ -16,7 +17,7 @@ const App = () => {
     return (
         <ul>
             <ClassComponent href="https://naver.com" text="go to naver"/>
-            <ClassComponent href="https://daum.net" text="go to daum"/>
+            <ArrowComponent href={"https://daum.net"} text={"go to daum!!"}/>
         </ul>
     )
 }
